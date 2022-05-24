@@ -1,0 +1,11 @@
+.link{
+    font-size: 18px;
+    padding-left: 10px;
+    line-height: 40px;
+    list-style: none;
+    text-decoration: none;
+    color: rgb(238, 120, 120);
+    display: block;
+    min-width: 120px;
+}
+

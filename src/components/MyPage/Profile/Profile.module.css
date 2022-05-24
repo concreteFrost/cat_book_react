@@ -1,0 +1,29 @@
+.profile {
+  display: grid;
+  grid-template-areas:
+    "a b"
+    "a c";
+
+  width: 200px;
+}
+
+.img {
+  grid-area: a;
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+  border: 0.1px solid rgba(0, 0, 0, 0.178);
+  margin-bottom: 0;
+}
+
+.name {
+  grid-area: b;
+  margin-top: 0;
+  margin-bottom: 0;
+  
+}
+
+.info {
+    margin-top: 0;
+  grid-area: c;
+}

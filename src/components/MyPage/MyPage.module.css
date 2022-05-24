@@ -1,0 +1,9 @@
+.img {
+  height: 200px;
+  min-width:100%;
+  object-position: 0 -200px;
+  object-fit:cover;
+  margin-bottom: 0px;
+  
+}
+

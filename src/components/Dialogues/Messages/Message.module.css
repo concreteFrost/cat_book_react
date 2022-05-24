@@ -1,0 +1,25 @@
+.container{
+    overflow-y: scroll;
+    max-height: 400px;
+}
+
+.message{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 10px 5px;
+}
+
+.my_message{
+    background-color: rgb(188, 187, 187);
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 10px 5px;
+}
+
+.sender{
+   text-align: end;
+   margin-right: 10px;
+}

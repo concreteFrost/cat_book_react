@@ -1,0 +1,28 @@
+.container {
+  position: relative;
+  margin-bottom: -12px;
+}
+
+.new_message_value {
+  width: 99.3%;
+  resize: none;
+  border: 1px solid bisque;
+  border-bottom: 2px solid bisque;
+  margin-bottom: 7px;
+
+
+}
+.new_message_value .new_message_submit_button :hover{
+  background-color: red;
+}
+
+.new_message_submit_button {
+  position: absolute;
+  bottom: 15px;
+  right: 2px;
+  border: 0;
+  border-radius: 6px;
+  width: 100px;
+  height: 30px;
+}
+

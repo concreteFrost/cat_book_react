@@ -1,0 +1,24 @@
+.submit_post {
+  margin-bottom: 20px;
+}
+
+.new_post_value {
+  max-width: 90%;
+  min-width: 90%;
+
+  resize: none;
+}
+
+.new_post_submit_button {
+  display: flex;
+  flex-wrap: nowrap;
+  top: 10px;
+}
+
+.new_post_title {
+  margin-bottom: 0;
+}
+
+.empty_wall{
+  text-align: center;
+}

@@ -1,0 +1,26 @@
+
+
+.container {
+  display: grid;
+  grid-template-areas: 'a d'
+                        'm m';
+}
+
+.contact_list {
+  grid-area: a;
+  background-color: rgba(250, 235, 215, 0.434);
+}
+
+.dialogue {
+ grid-area: d;
+  position: relative;
+  padding-left: 10px;
+  background-color: rgba(250, 235, 215, 0.434);
+  border-left:1px solid rgb(223, 219, 219) ;
+}
+
+.send_message{
+grid-area: m;
+background-color: rgb(175, 177, 177);
+}
+
